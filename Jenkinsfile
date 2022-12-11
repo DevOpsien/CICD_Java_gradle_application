@@ -1,5 +1,5 @@
 pipeline{
-    agent any 
+    agent Built-In Node
     environment{
         VERSION = "${env.BUILD_ID}"
     }
