@@ -17,11 +17,5 @@ pipeline{
                 }
             }
     }
-    post{
-        always{
-            echo "========success========"
-        }
-       
-    }
-}
+    
 }
